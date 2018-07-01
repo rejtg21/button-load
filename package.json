@@ -1,6 +1,6 @@
 {
   "name": "button-load",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An AngularJS component that handle the disabling of button when clicked synchronous/asynchronously and changing the text of it to progressive form",
   "main": "dist/button-load.js",
   "scripts": {
@@ -24,6 +24,7 @@
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
     "cross-env": "^5.2.0",
+    "uglifyjs-webpack-plugin": "^1.2.7",
     "webpack": "^3.10.0"
   }
 }

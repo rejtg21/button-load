@@ -1,10 +1,13 @@
 var webpack = require('webpack');
-var path = require('path');
+const path = require('path');
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 
 module.exports =  {
     entry: {
-        'button-load': ['./src/button-load.module.js']
+        'button-load': ['./src/button-load.module.js'],
+        'button-load.min': ['./src/button-load.module.js']
     },
+    devtool: "source-map",
     output: {
         filename: '[name].js',
         path: __dirname + '/dist/',
@@ -18,5 +21,11 @@ module.exports =  {
                 loader: 'babel-loader'
             }
         ]
-    }
+    },
+    plugins: [
+        new UglifyJsPlugin({
+            include: /\.min\.js$/,
+            // minimize: true
+        })
+    ]
 };

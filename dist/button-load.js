@@ -187,3 +187,4 @@ function BtnLoadComponentController($element, $rootScope, $q) {
 
 /***/ })
 /******/ ]);
+//# sourceMappingURL=button-load.js.map

@@ -12,7 +12,10 @@ npm install --save button-load
 ```
 
 # Usage
-- Just declare the `<button-load></button-load>` like a normal button do.
+- For normal usage in html `<script src="<node_modules path>/button-load/dist/button-load.min.js">` (I recommend using a compiler instead)
+- For Webpack use `import 'button-load';`
+- For Gulp/Grunt use `require 'button-load';`
+- Then just declare the `<button-load></button-load>` like a normal button do.
 ```
 <button-load ng-click="ctrl.yourFunction()" class="btn btn-default">
   Save
