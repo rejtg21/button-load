@@ -1,0 +1,29 @@
+{
+  "name": "button-load",
+  "version": "0.0.1",
+  "description": "An AngularJS component that handle the disabling of button when clicked synchronous/asynchronously and changing the text of it to progressive form",
+  "main": "dist/button-load.js",
+  "scripts": {
+    "webpack": "cross-env node_modules/webpack/bin/webpack.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rejtg21/button-load.git"
+  },
+  "author": "Rej Mediodia (https://github.com/rejtg21)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rejtg21/button-load/issues"
+  },
+  "homepage": "https://github.com/rejtg21/button-load#readme",
+  "dependencies": {
+    "angular": "^1.7.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "cross-env": "^5.2.0",
+    "webpack": "^3.10.0"
+  }
+}
