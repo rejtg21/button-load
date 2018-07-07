@@ -4,12 +4,12 @@ module.exports = {
         onClick: '&ngClick',
         bindTxt: '=ngBind'
     },
-    controller: BtnLoadComponentController
+    controller: ButtonLoadComponentController
 };
 
-BtnLoadComponentController.$inject = ['$element', '$rootScope', '$q'];
+ButtonLoadComponentController.$inject = ['$element', '$rootScope', '$q'];
 
-function BtnLoadComponentController($element, $rootScope, $q) {
+function ButtonLoadComponentController($element, $rootScope, $q) {
     var currentText, binding = false;
 
     this.$onInit = () => {

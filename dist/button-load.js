@@ -80,7 +80,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__button_load_component___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__button_load_component__);
 
 
-angular.module('btnLoad', []).component('btnLoad', __WEBPACK_IMPORTED_MODULE_0__button_load_component___default.a);
+angular.module('btnLoad', []).component('buttonLoad', __WEBPACK_IMPORTED_MODULE_0__button_load_component___default.a);
 
 /***/ }),
 /* 2 */
@@ -92,12 +92,12 @@ module.exports = {
         onClick: '&ngClick',
         bindTxt: '=ngBind'
     },
-    controller: BtnLoadComponentController
+    controller: ButtonLoadComponentController
 };
 
-BtnLoadComponentController.$inject = ['$element', '$rootScope', '$q'];
+ButtonLoadComponentController.$inject = ['$element', '$rootScope', '$q'];
 
-function BtnLoadComponentController($element, $rootScope, $q) {
+function ButtonLoadComponentController($element, $rootScope, $q) {
     var currentText,
         binding = false;
 
